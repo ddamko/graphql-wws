@@ -1,0 +1,28 @@
+ul {
+    margin: 0 0 0 9em;
+    padding: 0;
+    position: relative;
+    display: block;
+    list-style: none;
+
+    li {
+        float: left;
+        padding: 1.5em;
+        width: 18%;
+        position: relative;
+        background-color: lightblue;
+        border-radius: 10px;
+        margin: 1em;
+    }
+}
+h2 {
+    margin-bottom: 0;
+}
+p.codeno {
+    margin-top: 0;
+    font-size: 1em;
+    font-style: italic;
+}
+p.regname {
+    font-size: 0.9em;
+}

@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let bull of bulls">
+    <h2>{{ bull.codename }}</h2>
+    <p class="codeno">{{ bull.codeno }}</p>
+    <p class="regname">{{ bull.regname }}</p>
+    <p>{{ bull.uid }}</p>
+    <p><strong>PTAT:</strong> {{ bull.type_data.ptat }}</p>
+    <p><strong>STAT:</strong> {{ bull.type_data.stat }}</p>
+    <p><strong>STR:</strong> {{ bull.type_data.str }}</p>
+  </li>
+</ul>
